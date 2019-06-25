@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Eventemitter-demo';
+ Loadedfeature = 'recipe';
+
+  onNavigate(feature: string){
+ this.Loadedfeature = feature;
+
+  }
 }
